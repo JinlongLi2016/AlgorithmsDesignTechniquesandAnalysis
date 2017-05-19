@@ -104,7 +104,3 @@ import time
 # elements = [i for i in range(100000)]  # 9.3 seconds sorting 10e4 elements
 # myheap = myheap(elements)
 # myheap.heap_sort()
-
-
-class my_un
-        
