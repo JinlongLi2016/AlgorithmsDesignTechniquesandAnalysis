@@ -30,7 +30,22 @@ process rquicksort(A, low, high)
 选择数组中第k大或者中项元素。6.5以及证明了算法的运行时间是$$θ(n)$$ ,但它具有一个很大的常系数，使它对于中小等实例不具有可行性。下面介绍一个*Las Vegas*算法，它的期望运行时间是一个带有很小常系数的$$θ(n)$$，但在最坏的情况下它的运行时间也会蜕化至$$θ(n^2)$$ ,但是这与输入实例本身无关，而是随机数生成器恰巧选择了一个不切实际的序列，它的概率非常小。
 
 ```
+alg RandomizedSelect
+inputs: A, k
+outputs: 数组A中第k小元素
+1.	rselect(A, 1, n, k)
 
+过程 rselect(A, low, high, k)
+    v = random(low, high)
+    x = A[v]
+    把数组A分成三个数组 
+        A1 = {a| a<x}
+        A2 = {a| a=x}
+        A3 = {a| a>x}
+    case
+        |A1| >=k: return rselect(A, 1, |A1|, k)
+        |A1| + |A2| >= k: return x
+        |A1| + |A2| < k : return rselect(A3, 1, |A3|, k - |A1| - |A2| )
 ```
 
 
