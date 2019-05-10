@@ -1,7 +1,10 @@
 # AlgorithmsDesignTechniquesandAnalysis
 &lt;Algorithms Design Techniques and Analysis>M.H. a1suwaiyel textbook algorithms 
 
-![img](./resources/textbook.jpg)
+<div align=center> <img src=./resources/textbook.jpg /> </div>
+
+
+
 
 
 
