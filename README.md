@@ -44,9 +44,25 @@ for i from n−1 downto 1 do
   * 对于随机查找，一次就能搜索到的概率是k/n，那么平均情况下 1/(k/n) = n/k次就能够查找到目标元素。
 * 14.11 选择一个数不在上半部的概率为0.5。如果选择两个数，均不在上半部的概率是0.25。如果选择k个数，都不在上半部的概率为。如果我们选择这k个数当中最大的一个值，这个值在下半部的概率是？在上半部的概率是？
 * 14.12 同上
-* 14.13 *Freivalds' algorithm* 生成一个n维随机向量$$X$$ ，每个元素$$x_i ∈{{0, 1}}$$   时间复杂性为$$O(n^2)$$  Its time [analysis ](<http://www.cs.nthu.edu.tw/~wkhon/random12/lecture/lecture3.pdf>)is very strage~。It seems to assume most elements are 0s.
+* 14.13 *Freivalds' algorithm* 生成一个n维随机向量$$X$$ ，每个元素$$x_i ∈{{0, 1}}$$   时间复杂性为$$O(n^2)$$  Its time [analysis ](<http://www.cs.nthu.edu.tw/~wkhon/random12/lecture/lecture3.pdf>)is very strange~。It seems to assume most elements are 0s.
 * 14.14 原问题等价于验证 AB==I 。这个问题在14.13中有所讨论。
 * 14.16 把选择的元素与最后一个元素交换。
-* 14.17 上题的时空复杂度分别为 O(m) ， O(1)
+* 14.17 上题的时空复杂度分别为 O(m) ， O(1 
 * 14.20 [参考](<http://www.cs.nthu.edu.tw/~wkhon/random12/lecture/lecture3.pdf>)
 * 14.22 计算它们互不相同的概率，就可以得出其概率是 难以置信的0.5。
+
+---
+
+Ch16 Network Flow
+
+* 16.1 证明对于图中任意一条边(u, v)，流函数的四个条件依旧满足。
+* 16.2 
+* 16.6 构建一个虚拟的源点，连接所有的源点，边的容量为每个真实源点的通过量。
+* 16.8 DFS
+* 16.9 对图G做一些修改，每个顶点分裂为两个顶点，这两个顶点间用一个顶点容量大小的边连接。
+* 16.10 DFS，记录最大瓶颈容量的路径
+* 16.11 BFS
+* 16.12 剩余图中有的边并未在层次图中出现。
+* 16.14 最大流，每个节点的容量为单位容量
+* 16.15 想要找出图G的最小割，也就是找出它的最大流。找出最大流之后，确定最小割的方法是？把源点只通过非饱和边能到的顶点加入S。其他则为T。
+* 16.18 由题，所有顶点的最小度为k，则|E| >= K * |V| / 2
