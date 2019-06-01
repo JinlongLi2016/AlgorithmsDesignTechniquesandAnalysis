@@ -1,30 +1,54 @@
 # AlgorithmsDesignTechniquesandAnalysis
 &lt;Algorithms Design Techniques and Analysis>M.H. a1suwaiyel textbook algorithms 
 
-<div align=center> <img src=./resources/textbook.jpg /> </div>
+《算法设计技巧与分析》
+
+<div align=center> <img src=./resources/textbook.jpg /><img src=./resources/textbook2.jpg /></div>
 
 
 
-
+## 目录
 
 
 5. 归纳法 (induction)
+
 6. 分治
+
 7. 动态规划 (DP )
+
 8. 贪婪(Greedy)
+
 9. .
+
 10. .
+
 11. .
+
 12. .
+
+    Part 5 克服困难性
+
 13. 回溯(backtrack)
+
 14. 随机算法(Randomized Algs)
+
 15. 近似算法
+
+    Part 6 指定域问题的迭代改进算法
+
 16. 网络流
+
 17. 匹配
+
+    Part 7 计算几何
+
 18. 几何扫描
+
 19. 韦恩图解
 
 ---
+
+## 课后习题
 
 Ch14 Randomized  Algs [to be continue.]
 
