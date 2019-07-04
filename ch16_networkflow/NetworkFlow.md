@@ -190,3 +190,8 @@ Output	G的最大流
         使用剩余图R计算新的层次图L
 ```
 
+
+
+# Maxflow Applications
+
+Please refer this lecture notes: <https://courses.engr.illinois.edu/cs473/sp2010/notes/17-maxflowapps.pdf>
