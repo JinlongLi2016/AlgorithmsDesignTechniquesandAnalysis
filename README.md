@@ -57,6 +57,7 @@
 
 Ch14 Randomized  Algs [to be continue.]
 
+* 14.1 随机选择几个x测试等价性
 * 14.2 使用硬币生成1 ... n之间的随机数（大于n的忽略）,并把选择的元素与随后一位元素交换，再生成1..(n-1)之间的元素。
 
 * 14.5  **Fisher–Yates shuffle** 随机打乱一个数组
@@ -68,6 +69,19 @@ for i from n−1 downto 1 do
      exchange a[j] and a[i]
 ```
 
+* 14.8 每一次所用的总时间是 T(n) + T’(n), 找到解的概率是p(n). A Monte Carlo alogorithm
+对应的Las Vegas Algorithm is:
+solution given by Monte Carlo
+while solution not right:
+	solution  given by Monte Carlo
+
+Solution第一次正确 Monte Carlo算法的运行次数X为一个超几何分布
+As we know, E(X) = 1/p.
+Therefore, the las vegas algorithm cost time T(n) + T’(n) / p
+
+* 14.8 MonteCarlo算法一次错误的概率是 p, 那么连续运行k次均失败的概率是p^k.
+在题目中，epsilon^k < epsilon_2 即可
+
 * 14.10 平均情况下二者的平均查找次数一样。
   * 对于线性查找，n个元素里面有k个相当于n/k个元素里面有一个目标元素x，那么平均情况下搜索完这n/k个元素必然会遇到目标元素。
   * 对于随机查找，一次就能搜索到的概率是k/n，那么平均情况下 1/(k/n) = n/k次就能够查找到目标元素。
@@ -76,9 +90,19 @@ for i from n−1 downto 1 do
 * 14.13 *Freivalds' algorithm* 生成一个n维随机向量$$X​$$ ，每个元素$$x_i ∈{{0, 1}}​$$   时间复杂性为$$O(n^2)​$$  Its time [analysis ](<http://www.cs.nthu.edu.tw/~wkhon/random12/lecture/lecture3.pdf>)is very strange~。It seems to assume most elements are 0s.
 * 14.14 原问题等价于验证 AB==I 。这个问题在14.13中有所讨论。
 * 14.16 把选择的元素与最后一个元素交换。
-* 14.17 上题的时空复杂度分别为 O(m) ， O(1 
+* 14.17 上题的时空复杂度分别为 O(m) ， O(1)
+* 14.18 超几何分布的期望证明。看数学书吧。
 * 14.20 [参考](<http://www.cs.nthu.edu.tw/~wkhon/random12/lecture/lecture3.pdf>)
-* 14.22 计算它们互不相同的概率，就可以得出其概率是 难以置信的0.5。
+* 14.22 计算它们互不相同的概率，就可以得出其概率是 难以置信的0.5。  
+```python
+def pro(num):
+    p = 1
+    for i in range(num):
+        p *= (365-i)/365.
+    return p
+pro(23)
+#0.4927027656760144
+```
 
 ---
 
