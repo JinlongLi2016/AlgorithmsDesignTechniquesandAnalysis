@@ -1,16 +1,19 @@
-<div align=center> 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+<div align='center' style="font-size: xx-large">
+<b>《算法设计技巧与分析》闲谈及课后习题分析</b>
 </div>
 
-# AlgorithmsDesignTechniquesandAnalysis
+<div align='right'>
+  ---ljlsmail520atgmail
+</div>
 
-&lt;Algorithms Design Techniques and Analysis>M.H. a1suwaiyel textbook algorithms 
+​		武大刘娟老师本科和研究生课堂使用的是这本教材，这里贴出课后习题的目的在于为课堂同学提供一个**参考**。同时，可能会列出一些链接，希望能够帮助同学在算法设计上更进一步。
 
-《算法设计技巧与分析》
-
-<div align=center> <img src=./resources/textbook.jpg /><img src=./resources/textbook2.jpg /></div>
-
-
+<div align=center> 
+  <img src=./resources/textbook.jpg />
+  <img src=./resources/textbook2.jpg />
+  <br/>
+  <a href='./resources/instructions.md'>使用必读</a>
+</div>
 
 ## 目录
 
@@ -87,7 +90,7 @@ Therefore, the las vegas algorithm cost time T(n) + T’(n) / p
   * 对于随机查找，一次就能搜索到的概率是k/n，那么平均情况下 1/(k/n) = n/k次就能够查找到目标元素。
 * 14.11 选择一个数不在上半部的概率为0.5。如果选择两个数，均不在上半部的概率是0.25。如果选择k个数，都不在上半部的概率为。如果我们选择这k个数当中最大的一个值，这个值在下半部的概率是？在上半部的概率是？
 * 14.12 同上
-* 14.13 *Freivalds' algorithm* 生成一个n维随机向量$$X​$$ ，每个元素$$x_i ∈{{0, 1}}​$$   时间复杂性为$$O(n^2)​$$  Its time [analysis ](<http://www.cs.nthu.edu.tw/~wkhon/random12/lecture/lecture3.pdf>)is very strange~。It seems to assume most elements are 0s.
+* 14.13 *Freivalds' algorithm* 生成一个n维随机向量$$X$$ ，每个元素$$x_i ∈{{0, 1}}$$   时间复杂性为$$O(n^2)$$  Its time [analysis ](<http://www.cs.nthu.edu.tw/~wkhon/random12/lecture/lecture3.pdf>)is very strange~。It seems to assume most elements are 0s.
 * 14.14 原问题等价于验证 AB==I 。这个问题在14.13中有所讨论。
 * 14.16 把选择的元素与最后一个元素交换。
 * 14.17 上题的时空复杂度分别为 O(m) ， O(1)
@@ -160,13 +163,13 @@ Ch 17 Matching
 
 * 17.6   [to be continued]
 
-  > Hall 定理： X中所有顶点能和Y的子集匹配 $<=>​$  对所有X的子集S有 |F(S)| >= |S|
+  > Hall 定理： X中所有顶点能和Y的子集匹配 $<=>$  对所有X的子集S有 |F(S)| >= |S|
 
   正向是显然的；
 
   反向，对所有X的子集有不等式成立，那么X所有子集S的最小顶点覆盖规模为|S|，故它的最大匹配规模为|S|。故
 
-* 17.7 完全二分图的完全匹配数量为 $n!​$
+* 17.7 完全二分图的完全匹配数量为 $n!$
 
 * 17.8 这个结论是显然的，因为它必然是接下来增广路径节点的非端点节点。
 
@@ -233,4 +236,6 @@ Ch 17 Matching
 
   
 
-    
+<div align=center> 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+</div>
