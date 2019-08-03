@@ -24,6 +24,17 @@ else:
 
 **定理：bianryserach_rec 算法在n个元素组成的数组中搜索某个元素所执行的比较次数不超过 lg(n) + 1。算法的时间复杂性是O(lgn)**  lg(n)+1是拥有n个节点的  完全二叉树的树高
 
+```
+notes: 迭代版本
+过程  binarysearch(low, high)
+while low <= high:
+	mid = (low+high)//2
+	if x == A[mid]:		return mid
+	elif x > A[mid]:	low = mid + 1
+	else:				high = mid - 1
+# here  'low' and 'high' are 首末元素的下标,注意和某些情况high是末元素后一个位置的下标的区别
+```
+
 ## 6.3 合并排序（归排）
 
 以”归排“为例揭示**分治算法**在以自顶向下的方法求解一个问题实例时是如何工作的。
