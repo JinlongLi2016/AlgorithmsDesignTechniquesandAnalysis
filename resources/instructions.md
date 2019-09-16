@@ -9,6 +9,10 @@
 - G(V, E) 
 - |X|，X的数量。比如|E|代表边的数量
 
+---
+
+
+
 <div align=center> <img src=./qrcode_for_gh_7257363aadd8_258.jpg/> </div>
 <div align=center>微信扫一扫关注公众号 🙂 </div>
 
@@ -21,9 +25,7 @@
   <br/>
 </div>
 
-<div align=center>QQ扫一扫来加群 🙂 </div>
-
-
+<div align=center><a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=3c1fb4fbcc478fd5264a1d29472ae6e7752b5e1bdbab3af31b560766389e27e2"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="武大编程学习群" title="武大编程学习群"></a> 🙂 </div>
 
 ---
 
