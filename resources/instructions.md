@@ -10,5 +10,26 @@
 - |X|，X的数量。比如|E|代表边的数量
 
 <div align=center> <img src=./qrcode_for_gh_7257363aadd8_258.jpg/> </div>
-<div align=center>微信扫一扫关注 🙂 </div>
+<div align=center>微信扫一扫关注公众号 🙂 </div>
+
+---
+
+
+
+<div align=center> 
+  <img src=./qq_group.png width='30%' height=280px />
+  <br/>
+</div>
+
+<div align=center>QQ扫一扫来加群 🙂 </div>
+
+
+
+---
+
+
+
+
+
+
 
