@@ -13,7 +13,7 @@
 
 在回溯法中，解向量中每个 `xi` 都属于一个有限的线序集`Xi`,因此，回溯法按词典序考虑笛卡儿积 `X1*X2*...*Xn`的元素。算法从最初的空向量开始，然后选择X1中最小的元素...
 
-一般地，假定算法已经检测到部分解为$v = (x_1, x_2, .,x_j)$，它再去考虑向量$v = (x_1, x_2, .,x_j, x_{j+1})$，有下面的情况
+一般地，假定算法已经检测到部分解为$v = (x_1, x_2, .,x_j)$，它再去考虑向量$v = (x_1, x_2, .,x_j, x_{j+1})​$，有下面的情况
 
 ```
 1）如果v表示问题的最后解，算法记录它作为一个解，在仅希望获得一个解时就终止否则继续寻找其他解。
@@ -66,3 +66,10 @@ Alg 13.5 BacktrackIter
     else: output "no solution"
 ```
 
+
+
+
+<div align=center><a target="_blank" href="https://shang.qq.com/wpa/qunwpa?idkey=3c1fb4fbcc478fd5264a1d29472ae6e7752b5e1bdbab3af31b560766389e27e2"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="武大编程学习群" title="武大编程学习群"></a> 🙂 </div>
+
+<div align=center> contact me at ljlsmail520altgmail.com
+</div>
