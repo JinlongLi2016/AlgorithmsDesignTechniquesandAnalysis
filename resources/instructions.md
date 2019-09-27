@@ -28,7 +28,7 @@
 
 ---
 
-
+<div align=center><a target="_blank" href="https://shang.qq.com/wpa/qunwpa?idkey=b1f60f79b3ca3529de11e4d2eb36924a35f57ad3419b3a7563bbaad8043ba008"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="Python群" title="Python群"></a> 🙂 </div>
 
 
 
