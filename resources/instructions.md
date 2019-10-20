@@ -27,7 +27,13 @@
 
 <div align=center><a target="_blank" href="https://shang.qq.com/wpa/qunwpa?idkey=b1f60f79b3ca3529de11e4d2eb36924a35f57ad3419b3a7563bbaad8043ba008"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="Python群" title="Python群"></a> 🙂 </div>
 
+---
+# 其他
+如果您认为这个仓库能够帮助到其他人，请您不吝**Start**。这会使得这个仓库
 
+- 受到更多的关注
+- 吸引更多的人对其进行完善
+- 传播到更多的人
 
 
 
