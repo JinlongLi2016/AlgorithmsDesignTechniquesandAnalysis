@@ -64,9 +64,12 @@ Alg 13.5 BacktrackIter
 
     if flag:	output v # v是解向量
     else: output "no solution"
+    
 ```
 
 
+
+---
 
 
 <div align=center><a target="_blank" href="https://shang.qq.com/wpa/qunwpa?idkey=3c1fb4fbcc478fd5264a1d29472ae6e7752b5e1bdbab3af31b560766389e27e2"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="武大编程学习群" title="武大编程学习群"></a> 🙂 </div>
