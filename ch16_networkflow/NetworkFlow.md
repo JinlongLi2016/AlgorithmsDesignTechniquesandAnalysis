@@ -11,7 +11,7 @@
 3. 流守恒
 4. f(v, v) = 0
 
-定义：一个割{S, T}是把顶点集分成两个自己S T的一个划分，使得s S t T。割的容量c(S, T) 定义为
+定义：一个割{S, T}是把顶点集分成两个子集S T的一个划分，使得$s\in S, t\in  T$。割的容量c(S, T) 定义为
 
 ---
 
@@ -124,7 +124,7 @@ Output	G的最大流
 
 # Dinic阻塞流算法 
 
-Dinic算法把时间复杂度进一步减小为$O(n^2m)$，在MPLA中，计算层次图后增广路径逐条找出，而Dinic更加高效地找出所有地增广路径，这也是改进运行时间地原因所在。
+Dinic算法把时间复杂度进一步减小为$O(n^2m)​$，在MPLA中，计算层次图后增广路径逐条找出，而Dinic更加高效地找出所有地增广路径，这也是改进运行时间地原因所在。
 
 ---
 
@@ -171,7 +171,7 @@ while t 为 L中的顶点:
 
 MPM算法相比于Dinic算法寻找到了一个更快的寻找阻塞流的算法$O(n^2)$
 
-顶点v的**通过量**（throughput），为引入边的总容量和引出边的总容量中的最小值。
+顶点v的**通过量**（throughput），为引入边的总容量和引出边的总容量两者中的小值。
 
 ```Alg 
 Algorithm MPM
@@ -183,7 +183,7 @@ Output	G的最大流
     查找剩余图R的层次图L
     while t 为 L中的层次图顶点:
         while t 在L中从s能到达:
-            查找最小通过量为g的顶点v
+            查找最小通过量的顶点v(设其对应值为g)
             从v到t推下g个单元流
             从s到v拉入g个单元流
             更新 f, L, R
@@ -194,7 +194,7 @@ Output	G的最大流
 
 # Maxflow Applications
 
-Please refer this lecture notes: <https://courses.engr.illinois.edu/cs473/sp2010/notes/17-maxflowapps.pdf>
+Please refer to this lecture notes: <https://courses.engr.illinois.edu/cs473/sp2010/notes/17-maxflowapps.pdf>
 
 
 
