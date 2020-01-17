@@ -1,6 +1,6 @@
 <div align=center> <img src=./resources/whu_hardlab_copyright@hardlab.jpg width=100% height=100%> </div>
 
-
+<div align=center>星湖_武汉大学</div>
 
 ---
 
@@ -63,9 +63,9 @@
 
 ---
 
-## 课后习题
+# 课后习题
 
-Ch14 Randomized  Algorithms[to be continued.]
+## Ch14 Randomized  Algorithms[to be continued.]
 
 <div align=center> <img src=./resources/randomized.png/ width=50% height=50%> </div>
 
@@ -118,9 +118,13 @@ pro(23)
 
 ---
 
-Ch16 Network Flow
+## Ch16 Network Flow
 
 <div align=center> <img src=./resources/max_flow.jpeg/ width=90% height=90%> </div>
+
+<div align=center> 全球供应链图</div> 
+
+[最大流算法](<https://github.com/JinlongLi2016/AlgorithmsDesignTechniquesandAnalysis/blob/master/ch16_networkflow/maxflow_algorithm.py>)的实现
 
 * 16.1 证明对于图中任意一条边(u, v)，流函数的四个条件依旧满足。
 * 16.2 
@@ -136,7 +140,7 @@ Ch16 Network Flow
 
 ---
 
-Ch 17 Matching
+## Ch 17 Matching
 
 <div align=center> <img src=./resources/matching.png/ width=50% height=50%> </div>
 
