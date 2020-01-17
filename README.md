@@ -22,6 +22,8 @@
   <a href='./resources/instructions.md'>使用必读</a>
 </div>
 
+[TOC]
+
 ## 目录
 
 
@@ -63,9 +65,9 @@
 
 ---
 
-# 课后习题
+##  课后习题
 
-## Ch14 Randomized  Algorithms[to be continued.]
+### Ch14 Randomized  Algorithms[to be continued.]
 
 <div align=center> <img src=./resources/randomized.png/ width=50% height=50%> </div>
 
@@ -118,7 +120,7 @@ pro(23)
 
 ---
 
-## Ch16 Network Flow
+### Ch16 Network Flow
 
 <div align=center> <img src=./resources/max_flow.jpeg/ width=90% height=90%> </div>
 
@@ -140,7 +142,7 @@ pro(23)
 
 ---
 
-## Ch 17 Matching
+### Ch 17 Matching
 
 <div align=center> <img src=./resources/matching.png/ width=50% height=50%> </div>
 
