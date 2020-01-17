@@ -1,3 +1,5 @@
+<div align=center> <img src=paidaxing.gif width=50% height=50%> </div>
+
 # 阅读体验及课件
 
 * markdown是用typora写的,因此为了更好的阅读体验,可以下载typora进行阅读.
@@ -33,6 +35,8 @@
 
 - 传播到更多的人，受到更多的关注
 - 吸引更多的人对其进行完善，提升仓库质量
+
+---
 
 
 
