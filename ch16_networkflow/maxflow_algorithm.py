@@ -215,7 +215,10 @@ def initialize_flow_g(G):
     
 
 def calculate_level_g(G, _s):
-    '''根据图G 计算源点为_s的层次图'''
+    '''根据图G 计算源点为_s的层次图
+
+    time complexity 时间复杂性怎么分析？
+    '''
     L = nx.DiGraph()
     L.add_node(_s, level=0)
     
@@ -243,6 +246,7 @@ def calculate_level_g(G, _s):
                     L.add_node(n, level=L.nodes[e]['level'] + 1)
                     L.add_edge(e, n, capacity=G.edges[e, n]['capacity'])
     return L
+    # each edge has are visted once only, O(m)
 
 def update_level_g(G, path, bottleneck_capacity):
     # update level graph capacity along the path
