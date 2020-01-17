@@ -1,6 +1,13 @@
+<div align=center> <img src=./resources/whu_hardlab_copyright@hardlab.jpg width=100% height=100%> </div>
+
+
+
+---
+
 <div align='center' style="font-size: xx-large">
 <b>《算法设计技巧与分析》闲谈及课后习题分析</b>
 </div>
+
 
 <div align='right'>
   ---ljlsmail520atgmail
@@ -58,7 +65,9 @@
 
 ## 课后习题
 
-Ch14 Randomized  Algs [to be continue.]
+Ch14 Randomized  Algorithms[to be continued.]
+
+<div align=center> <img src=./resources/randomized.png/ width=50% height=50%> </div>
 
 * 14.1 随机选择几个x测试等价性
 * 14.2 使用硬币生成1 ... n之间的随机数（大于n的忽略）,并把选择的元素与随后一位元素交换，再生成1..(n-1)之间的元素。
@@ -111,6 +120,8 @@ pro(23)
 
 Ch16 Network Flow
 
+<div align=center> <img src=./resources/max_flow.jpeg/ width=90% height=90%> </div>
+
 * 16.1 证明对于图中任意一条边(u, v)，流函数的四个条件依旧满足。
 * 16.2 
 * 16.6 构建一个虚拟的源点，连接所有的源点，边的容量为每个真实源点的通过量。
@@ -126,6 +137,8 @@ Ch16 Network Flow
 ---
 
 Ch 17 Matching
+
+<div align=center> <img src=./resources/matching.png/ width=50% height=50%> </div>
 
 * 17.1
 
@@ -239,3 +252,6 @@ Ch 17 Matching
 <div align=center> 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
 </div>
+---
+
+<div align=center> <img src=./resources/dahuaxiyou.gif width=50% height=50%> </div>
