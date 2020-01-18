@@ -5,15 +5,16 @@
 ---
 
 <div align='center' style="font-size: xx-large">
-<b>《算法设计技巧与分析》闲谈及课后习题分析</b>
+<b>《算法设计技巧与分析》课后习题分析</b>
 </div>
+
 
 
 <div align='right'>
   ---ljlsmail520atgmail
 </div>
 
-​		武大刘娟老师本科和研究生课堂教材。这里贴出课后习题的目的在于为课堂同学提供一个**参考**。同时，可能会列出一些链接，希望能够帮助同学在算法设计上更进一步。
+​	这里贴出课后习题的目的在于为课堂同学提供一个**参考**。同时，可能会列出一些链接，希望能够帮助同学在算法设计上更进一步。
 
 <div align=center> 
   <img src=./resources/textbook.jpg />
