@@ -320,7 +320,7 @@ def dinic_maxflow(G, _s='s', _t='t'):
                 for i in range(len(p) - 1):
                     if R.edges[p[i], p[i+1]]['capacity'] == 0:
                         L.remove_edge(p[i], p[i+1]) 
-                # update u as the furthest reachable node from _s in p  in L            
+                # update u as the furthest reachable node starting from _s in p  in L            
                 for i in range(len(p) - 1):
                     if R.edges[p[i], p[i+1]]['capacity'] == 0:
                         p = p[:i+1]

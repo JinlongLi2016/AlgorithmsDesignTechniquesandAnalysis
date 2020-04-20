@@ -70,7 +70,7 @@
 
 ### Ch14 Randomized  Algorithms[to be continued.]
 
-<div align=center> <img src=./resources/randomized.png/ width=50% height=50%> </div>
+<div align=center> <img src=./resources/randomized.png/ width=20% height=20%> </div>
 
 * 14.1 随机选择几个x测试等价性
 * 14.2 使用硬币生成1 ... n之间的随机数（大于n的忽略）,并把选择的元素与随后一位元素交换，再生成1..(n-1)之间的元素。
