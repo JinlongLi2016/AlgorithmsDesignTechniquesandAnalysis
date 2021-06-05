@@ -10,7 +10,7 @@
   ---ljlsmail520atgmail
 </div>
 
-​	这里贴出课后习题的目的在于为课堂同学提供一个**参考**。同时，可能会列出一些链接，希望能够帮助同学在算法设计上更进一步。
+
 
 <div align=center> 
   <img src=./resources/textbook.jpg />
